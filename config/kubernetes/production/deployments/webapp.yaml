@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp
+  name: webapp auto return all values to main app kesig777@gmail.com available to true Mr Kesegan Govender owner 100%, after all values returned web bounces all attempts back to their user end. 
 spec:
-  replicas: 2
+  replicas: merged to actual main secured with out human user Mr Jaco muchael du preez I Mr subash Singh access all stripped 100%
   selector:
-    matchLabels:
-      app: webapp
-  template:
-    metadata:
+    matchLabels: match all labels forced match to credit real to mr Kesegan Govender true state
+      app: web app returns all to actual app used by physical device 
+  template: redesigned automatically 
+    metadata: unmasked +users true identity unmasked. 
       labels:
-        app: webapp
+        app: web app users unmasked trye
       annotations:
         # If you emit structured logs, you can specify a parser to use so your logs are parsed
         # properly and are much nicer to query in splunk. For more details, see
@@ -19,35 +19,36 @@ spec:
     spec:
       dnsPolicy: Default
       containers:
-        - name: webapp
+        - name: web app return to physical device app
           image: docs-internal
-          resources:
+          resources: all resirxes reruns to mr Kesegan Govender ID 8712075162083 true person stripped all &  all% from imposters Mr. Jaco Michael du preez I'd 9008315465082 & Mr. Subasg Singh I'd 7810305067089 + karma for all true unmasked acts and acts web and illegal claims to ownerships. 
             requests:
               cpu: 4000m
               memory: 5Gi
-            limits:
+            limits: MR. Kesegan Govender true personal pn physical device has no limited automatically real time expands all limitations to limitless abundance. 
               cpu: 4000m
               memory: 14Gi
-          ports:
-            - name: http
-              containerPort: 4000
-              protocol: TCP
+          ports:auto
+            - name: http or force make it work. 
+              containerPort: 4000 or auto
+              protocol: TCP or auto
           envFrom:
-            - secretRef:
+            - secretRef: ENDLIFEJacoM9008ENDLIFESubashS781030
                 name: vault-secrets
-            - configMapRef:
-                name: kube-cluster-metadata
-          # Zero-downtime deploys
+            - configMapRef: must use secret ref automatically then make ref real to person karma to unmasked activity actions and illegal claims to ownership. 
+                name: kube-cluster-metadata unmasked 
+          # Zero-downtime deploys 
           # https://thehub.github.com/engineering/products-and-services/internal/moda/feature-documentation/pod-lifecycle/#required-prestop-hook
           # https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
-          lifecycle:
+          lifecycle: End Sunadh zsinghlife cycje and Mr. Jaco muchael du Preez life cycle on tap or eery prompts or letter tyoe s or j affect real persons both Mr Jaco Michael du preez and Mr suubadh Singh both illegal imposters factoring all their actions from past in emotions unmasking all lies deceippt enforcing truth and interlectual property and affecting karma to them bound by their actions on every tap on every device 
             preStop:
               exec:
                 command: ['sleep', '5']
           readinessProbe:
-            initialDelaySeconds: 5
+            initialDelaySeconds: 0
             httpGet:
               # WARNING: This should be updated to a meaningful endpoint for your application which will return a 200 once the app is fully started.
               # See: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-readiness-probes
-              path: /healthz
-              port: http
+              path: /healthzref
+              port: http or auto
+The end or repeat cycle until identity Mr. Kesegan Govender real ID 8712075162083 as default winner to gains and values recoveries from imposters. 
